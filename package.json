@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +15,8 @@
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "stripe": "^8.61.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

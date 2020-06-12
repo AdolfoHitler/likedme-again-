@@ -22,4 +22,13 @@ router.post('/checkout', async (req,res) =>{
     res.send('resivido');
 });
 
+//
+// api suscriptores youtube
+//
+router.get('/yt/subscriptions', (req,res) => {
+    res.json({
+        id: 1
+    })
+});
+
 module.exports = router;
