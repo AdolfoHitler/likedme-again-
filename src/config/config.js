@@ -13,5 +13,6 @@ let urlDB;
 if(process.env.NODE_ENV === 'dev'){
     urlDB = 'mongodb://localhost:27017/likedme';
 }else{
-    urlDB = 'mongodb+srv://roberto:OLcf4rJIaLGwf9Hj@cluster0-2wmdy.mongodb.net/test?retryWrites=true&w=majority';
+    urlDB = 'mongodb+srv://roberto:YYvkvqPBQFCOXz3k@cluster0-2wmdy.mongodb.net/likedme?retryWrites=true&w=majority';
 }
+process.env.URLDB = urlDB;
