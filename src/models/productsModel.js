@@ -16,6 +16,10 @@ const products_registerSchema = new Schema({
 	price: {
 		type: Number,
 		required: [true, "price null"],
-	},
+    },
+    available:{
+        type: Boolean,
+		required: [true, "available null"],
+    }
 });
 module.exports = mongoose.model("Products", products_registerSchema);
