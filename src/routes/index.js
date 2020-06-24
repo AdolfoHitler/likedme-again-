@@ -1,6 +1,6 @@
-const express = require('express')
-let app = express()
-app.use(require('./subsRouter'))
-app.use(require('./subsRouter'))
+const express = require("express");
+let app = express();
+app.use(require("./productsRouter"));
+app.use(require("./stripeRouter"));
 
 module.exports = app;
